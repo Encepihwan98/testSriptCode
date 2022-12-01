@@ -19,7 +19,7 @@ class LoginController extends Controller
         $this->middleware('auth:api', ['except' => ['login','register']]);
     }
     /**
-     * Handle the incoming request.
+     * Handle thce incoming request.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
